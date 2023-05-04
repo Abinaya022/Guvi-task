@@ -1,0 +1,105 @@
+/* form style */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+form button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #3e8e41;
+}
+
+/* login page */
+.login-form {
+  max-width: 400px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.login-form p {
+  margin-bottom: 20px;
+}
+
+.login-form a {
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+/* signup page */
+.signup-form {
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.signup-form h2 {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.signup-form p {
+  margin-bottom: 20px;
+}
+
+.signup-form a {
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+/* register page */
+.register-form {
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.register-form h2 {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.register-form p {
+  margin-bottom: 20px;
+}
+
+.register-form a {
+  color: #4CAF50;
+  font-weight: bold;
+}

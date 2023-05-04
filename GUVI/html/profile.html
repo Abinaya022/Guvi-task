@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Profile</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Profile</h1>
+      <form action="update.php" method="post">
+        <label for="age">Age</label>
+        <input type="text" id="age" name="age">
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob">
+        <label for="contact">Contact</label>
+        <input type="text" id="contact" name="contact">
+        <button type="submit" class="btn">Update Profile</button>
+      </form>
+      <p><a href="logout.php">Log Out</a></p>
+    </div>
+  </body>
+</html>
